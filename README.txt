@@ -1,7 +1,0 @@
-YS Scholaria website - every page is self-contained (styles, scripts and images are inside the file), so it also opens correctly from a phone file manager. Upload EVERYTHING in this folder to the root of ysscholaria.com: all .html files plus favicon.ico, favicon-32x32.png, icon-192.png, icon-512.png, apple-touch-icon.png, og-image.png, site.webmanifest, robots.txt and sitemap.xml. The browser tab icon and the link-preview logo only work when those files sit at the site root.
-- Link previews are cached by WhatsApp, Messenger, Facebook and iMessage. After uploading, clear Facebook's cache at developers.facebook.com/tools/debug (Scrape Again) or share the link with ?v=2 at the end to see the new preview.
-- Payment logos are embedded in the pages. Optional when hosted: assets/qr/<id>.png (your merchant QR codes: bkash, nagad, upay, rocket, nexuspay, cellfin, dbbl, ibbl) appear on payments.html automatically.
-- To edit prices, promo codes, payment links or the RedotPay card display, search a page for: var CAT=, PROMOS={}, PAYLINKS={}, CARD_FULL. Prices and codes are repeated in every page, so change them in all files (or ask for a rebuild).
-- Accounts, requests and payment history live in each visitor's own browser. A real payment gateway and shared accounts need a backend (for example SSLCommerz, aamarPay, bKash merchant API, Firebase or Supabase).
-- Free materials: the Google Drive link is on free-materials.html (search for drive.google.com).
-- Reviews: add only real reviews, with the client's permission (RV in the script).
